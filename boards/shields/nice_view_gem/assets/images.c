@@ -57,7 +57,8 @@ const lv_img_dsc_t bt = {
 #define LV_ATTRIBUTE_IMG_BT_NO_SIGNAL
 #endif
 
-const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_BT_NO_SIGNAL uint8_t bt_no_signal_map[] = {
+const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_BT_NO_SIGNAL uint8_t
+    bt_no_signal_map[] = {
 #if CONFIG_NICE_VIEW_WIDGET_INVERTED
         0x00, 0x00, 0x00, 0xff, /*Color of index 0*/
         0xff, 0xff, 0xff, 0xff, /*Color of index 1*/
@@ -82,7 +83,8 @@ const lv_img_dsc_t bt_no_signal = {
 #define LV_ATTRIBUTE_IMG_BT_UNBONDED
 #endif
 
-const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_BT_UNBONDED uint8_t bt_unbonded_map[] = {
+const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_BT_UNBONDED uint8_t
+    bt_unbonded_map[] = {
 #if CONFIG_NICE_VIEW_WIDGET_INVERTED
         0x00, 0x00, 0x00, 0xff, /*Color of index 0*/
         0xff, 0xff, 0xff, 0xff, /*Color of index 1*/
