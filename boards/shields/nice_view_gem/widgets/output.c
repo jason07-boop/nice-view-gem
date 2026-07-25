@@ -19,7 +19,7 @@ static void draw_ble_unbonded(lv_obj_t *canvas) {
     lv_draw_image_dsc_t img_dsc;
     lv_draw_image_dsc_init(&img_dsc);
 
-    canvas_draw_img(canvas, 44, 0, &bt_unbonded, &img_dsc);
+    canvas_draw_img(canvas, 44, 0, &usb, &img_dsc);
 }
 #endif
 
